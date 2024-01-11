@@ -29,6 +29,65 @@ are added as [[https://git-scm.com/book/en/v2/Git-Tools-Submodules][git submodul
   git clone --recurse-submodules https://github.com/aniketnarvekar/rockpaperscissor.c.git
 #+end_src
 
+* Environment Variables
+
+NOTE: The author assumed that the project was built in the “build”
+directory in the project folder.
+
+- ROCKPAPERSCISSOR_BUILD_EXAMPLE
+  
+  1. Build example
+
+     Set ROCKPAPERSCISSOR_BUILD_EXAMPLE values is YES while build
+     project using cmake. The default value is NO.
+
+     #+begin_src sh
+       cmake -DROCKPAPERSCISSOR_BUILD_EXAMPLE=YES ..
+     #+end_src
+
+  2. Make executable
+
+     Run make in build directory
+
+     #+begin_src sh
+       make
+     #+end_src
+
+  3. Run test
+
+     Run the example from build directry(in linux and macos).
+
+     #+begin_src sh
+       ./example/main
+     #+end_src
+
+- ROCKPAPERSCISSOR_BUILD_TEST
+  
+  1. Build project using cmake
+
+     Set ROCKPAPERSCISSOR_BUILD_TEST value is YES while building
+     project with cmake. The default value is NO.
+
+     #+begin_src sh
+       cmake -DROCKPAPERSCISSOR_BUILD_TEST=YES ..
+     #+end_src
+     
+  2. Make executable
+
+     Run make command in build directory in build directory.
+
+     #+begin_src sh
+       make
+     #+end_src
+     
+  3. Run test
+
+     Run ctest in build directory.
+
+     #+begin_src sh
+       ctest
+     #+end_src
+
 * References
 
 - [[https://www.geeksforgeeks.org/rock-paper-scissor-in-c/][Rock Paper Scissor in C]]
