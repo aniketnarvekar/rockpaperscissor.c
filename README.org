@@ -1,0 +1,41 @@
+#+TITLE: Rock, Paper, Scissor game
+
+* Introduction
+
+Rock Paper Scissor is one of the most common games played by everyone
+once in their childhood, where two people use their hands and choose
+random objects between rock, paper, or scissor, and their choice
+decides the winner between them. What if a single person could play
+this game?
+
+This project allows you to play a single-person rock-paper-scissor
+game with a computer.
+
+* Inspiration
+
+I am reading [[https://www.amazon.in/Programming-Language-Prentice-Hall-Software/dp/0131103628][C Programming Language (Prentice Hall Software)]] by [[https://www.amazon.in/s/ref=dp_byline_sr_book_1?ie=UTF8&field-author=Dennis+Ritchie&search-alias=stripbooks][Dennis
+Ritchie]] and [[https://www.amazon.in/s/ref=dp_byline_sr_book_2?ie=UTF8&field-author=Brian+Kernighan&search-alias=stripbooks][Brian Kernighan]]. I'm excited to implement these programs
+to increase my knowledge and understanding of C programming, project
+structure, C library creation (and linking), and implementing examples
+and test cases.
+
+* References
+
+- [[https://www.geeksforgeeks.org/rock-paper-scissor-in-c/][Rock Paper Scissor in C]]
+- [[https://www.youtube.com/live/AJRGU_XgVMQ?si=WFElp6DmRRE3v18J][CMake: How to Build and Package C/C++ Projects]]
+- [[https://cmake.org/cmake/help/latest/guide/tutorial/index.html][CMake Tutorial]]
+- [[https://www.toptal.com/developers/gitignore][gitignore]]
+- [[https://github.com/ThrowTheSwitch/Unity][Unity]] by [[https://github.com/ThrowTheSwitch][ThrowTheSwitch]]
+- [[https://git-scm.com/book/en/v2/Git-Tools-Submodules][Git Tools - Submodules]]
+
+
+
+* Installation
+
+The project depends on external library [[https://github.com/ThrowTheSwitch/Unity][Unity]] by [[https://github.com/ThrowTheSwitch][ThrowTheSwitch]] which
+are added as [[https://git-scm.com/book/en/v2/Git-Tools-Submodules][git submodule]] using this you can not only clone the
+[[https://github.com/aniketnarvekar/rockpaperscissor.c][rockpaperscissor.c]] repository but also [[https://github.com/ThrowTheSwitch/Unity][Unity]] test framework.
+
+#+begin_src sh
+  git clone --recurse-submodules https://github.com/aniketnarvekar/rockpaperscissor.c.git
+#+end_src
