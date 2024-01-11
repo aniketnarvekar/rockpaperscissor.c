@@ -19,6 +19,16 @@ to increase my knowledge and understanding of C programming, project
 structure, C library creation (and linking), and implementing examples
 and test cases.
 
+* Installation
+
+The project depends on external library [[https://github.com/ThrowTheSwitch/Unity][Unity]] by [[https://github.com/ThrowTheSwitch][ThrowTheSwitch]] which
+are added as [[https://git-scm.com/book/en/v2/Git-Tools-Submodules][git submodule]] using this you can not only clone the
+[[https://github.com/aniketnarvekar/rockpaperscissor.c][rockpaperscissor.c]] repository but also [[https://github.com/ThrowTheSwitch/Unity][Unity]] test framework.
+
+#+begin_src sh
+  git clone --recurse-submodules https://github.com/aniketnarvekar/rockpaperscissor.c.git
+#+end_src
+
 * References
 
 - [[https://www.geeksforgeeks.org/rock-paper-scissor-in-c/][Rock Paper Scissor in C]]
@@ -29,13 +39,3 @@ and test cases.
 - [[https://git-scm.com/book/en/v2/Git-Tools-Submodules][Git Tools - Submodules]]
 
 
-
-* Installation
-
-The project depends on external library [[https://github.com/ThrowTheSwitch/Unity][Unity]] by [[https://github.com/ThrowTheSwitch][ThrowTheSwitch]] which
-are added as [[https://git-scm.com/book/en/v2/Git-Tools-Submodules][git submodule]] using this you can not only clone the
-[[https://github.com/aniketnarvekar/rockpaperscissor.c][rockpaperscissor.c]] repository but also [[https://github.com/ThrowTheSwitch/Unity][Unity]] test framework.
-
-#+begin_src sh
-  git clone --recurse-submodules https://github.com/aniketnarvekar/rockpaperscissor.c.git
-#+end_src
